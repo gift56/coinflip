@@ -28,4 +28,45 @@ export const cardData = [
   },
 ];
 
-export const graphData = [{}];
+export const graphData = [
+  {
+    coinName: "Bitcoin",
+    prefix: "BTC",
+    rate: "$56,290.30",
+    percentage: "+1.68%",
+    status: "good",
+    graphImage: graphIcon1,
+  },
+  {
+    coinName: "Bitcoin",
+    prefix: "BTC",
+    rate: "$56,290.30",
+    percentage: "+1.68%",
+    status: "good",
+    graphImage: graphIcon1,
+  },
+  {
+    coinName: "Bitcoin",
+    prefix: "BTC",
+    rate: "$56,290.30",
+    percentage: "+1.68%",
+    status: "good",
+    graphImage: graphIcon1,
+  },
+  {
+    coinName: "Bitcoin",
+    prefix: "BTC",
+    rate: "$56,290.30",
+    percentage: "+1.68%",
+    status: "good",
+    graphImage: graphIcon1,
+  },
+  {
+    coinName: "Polkadot",
+    prefix: "DOT",
+    rate: "$42.22",
+    percentage: "+7.56%",
+    status: "good",
+    graphImage: graphIcon1,
+  },
+];
