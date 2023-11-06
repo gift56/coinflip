@@ -22,7 +22,9 @@
         </button>
       </RouterLink>
     </div>
-    <div class="w-full absolute h-full"></div>
+    <div class="w-full absolute h-full">
+      <img src="../assets/image/heroCircle.svg" alt="curcle" />
+    </div>
   </section>
 </template>
 
