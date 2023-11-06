@@ -29,7 +29,7 @@
       class="w-[350px] h-[350px] bg-purpleBg absolute bottom-[-10%] right-0 rounded-full blur-[85px]"
     ></div>
     <div
-      class="w-[240px] h-[240px] bg-lightBlueBg absolute bottom-[-10%] right-0 rounded-full blur-[85px] z-10"
+      class="w-[240px] h-[240px] bg-lightBlueBg absolute bottom-[0%] right-0 rounded-full blur-[85px] z-10"
     ></div>
   </section>
 </template>
