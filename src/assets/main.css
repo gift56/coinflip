@@ -24,7 +24,6 @@
 img {
   user-select: none;
   -webkit-user-drag: none;
-  cursor: not-allowed;
 }
 
 ::selection {
