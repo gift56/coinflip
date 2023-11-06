@@ -34,7 +34,10 @@
           alt="image"
           class="absolute top-[2%] left-[5%] z-10"
         />
-        <div class="w-[170px] h-[251px] bg-blueBg absolute top-[-13%] left-[9%] rounded-full blur-[85px]"></div>
+        <div
+          class="w-[170px] h-[251px] bg-blueBg absolute top-[-13%] left-[9%] rounded-full blur-[85px]"
+        ></div>
+        <img src="../assets/image/heroImage2.png" alt="image"  class="absolute bottom-[35%] left-[5%] z-10" />
       </div>
     </div>
   </section>
