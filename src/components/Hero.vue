@@ -28,20 +28,20 @@
           class="w-[170px] h-[251px] bg-blueBg absolute top-[-13%] left-[9%] rounded-full blur-[85px]"
         ></div>
         <div class="w-full h-full relative overflow-hidden">
-          <!-- <img
+          <img
             src="../assets/image/circle1.png"
             alt="image"
-            class="absolute w-[80%] top-0"
+            class="absolute w-[80%] h-[500px] object-cover top-[8%] rotate-[9deg]"
           />
           <img
             src="../assets/image/circle2.png"
             alt="image"
-            class="absolute w-[1000px] h-[700px] left-[-5%] top-[-5%]"
-          /> -->
+            class="absolute w-[2000px] h-[700px] object-cover left-[5%] top-[3%] rotate-[9deg]"
+          />
           <img
             src="../assets/image/circle3.png"
             alt="image"
-            class="absolute w-[2000px] h-[1000px] object-cover top-[-25%] rotate-[-3deg]"
+            class="absolute w-[2000px] h-[1000px] object-cover top-[-25%] rotate-[3deg]"
           />
         </div>
       </div>
