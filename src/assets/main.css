@@ -15,7 +15,7 @@ body {
 }
 
 .card {
-  @apply flex flex-col items-center justify-center p-5;
+  @apply flex flex-col items-center justify-center p-5 bg-cardDark rounded-3xl group;
 }
 
 img {
