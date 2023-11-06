@@ -43,6 +43,11 @@
             alt="image"
             class="absolute w-[2000px] h-[1000px] object-cover top-[-25%] rotate-[3deg]"
           />
+          <img
+            src="../assets/image/circle3.png"
+            alt="image"
+            class="absolute w-[4000px] h-[1000px] object-cover top-[-45%] rotate-[3deg]"
+          />
         </div>
       </div>
     </div>
