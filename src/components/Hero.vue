@@ -16,7 +16,7 @@
       <RouterLink to="/">
         <button
           type="button"
-          class="w-fit px-4 py-1 rounded-xl bg-btnLinear text-white outline-none text-lg font-semibold"
+          class="w-fit px-6 py-3 rounded-xl bg-btnLinear text-white outline-none text-lg font-semibold"
         >
           Get Started
         </button>

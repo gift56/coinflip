@@ -17,13 +17,13 @@
         <div class="hidden lg:flex items-center justify-start gap-6">
           <RouterLink
             to="/"
-            class="text-lg font-semibold border w-fit px-4 py-1 rounded-xl"
+            class="text-lg font-semibold border w-fit px-4 py-2 rounded-xl"
             >Sign in</RouterLink
           >
           <RouterLink to="/">
             <button
               type="button"
-              class="w-fit px-4 py-1 rounded-xl bg-btnLinear text-white outline-none text-lg font-semibold"
+              class="w-fit px-4 py-2 rounded-xl bg-btnLinear text-white outline-none text-lg font-semibold"
             >
               Sign up
             </button>
@@ -56,13 +56,13 @@
 
             <RouterLink
               to="/"
-              class="text-lg font-semibold border w-fit px-4 py-1 rounded-xl"
+              class="text-lg font-semibold border w-fit px-4 py-2 rounded-xl"
               >Sign in</RouterLink
             >
             <RouterLink to="/">
               <button
                 type="button"
-                class="w-fit px-4 py-1 rounded-xl bg-btnLinear text-white outline-none text-lg font-semibold"
+                class="w-fit px-4 py-2 rounded-xl bg-btnLinear text-white outline-none text-lg font-semibold"
               >
                 Sign up
               </button>
