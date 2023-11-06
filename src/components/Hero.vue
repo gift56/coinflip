@@ -1,6 +1,6 @@
 <template>
   <section
-    className="w-full relative h-screen flex flex-col items-center justify-center overflow-hidden"
+    className="w-full relative h-screen flex flex-col items-center justify-center"
   >
     <div
       class="flex flex-col w-full items-center justify-center gap-8 relative z-10"
@@ -24,9 +24,17 @@
     </div>
     <div class="w-full absolute h-full top-0">
       <div class="relative w-full h-full">
-        <img src="../assets/image/heroCircle.svg" alt="circle" class="w-full h-full object-cover" />
-        <img src="../assets/image/heroImage1.png" alt="image" class="absolute top-[2%] left-[5%]">
-        <div></div>
+        <img
+          src="../assets/image/heroCircle.svg"
+          alt="circle"
+          class="w-full h-full object-cover"
+        />
+        <img
+          src="../assets/image/heroImage1.png"
+          alt="image"
+          class="absolute top-[2%] left-[5%] z-10"
+        />
+        <div class="w-[170px] h-[251px] bg-blueBg absolute top-[-13%] left-[9%] rounded-full blur-[85px]"></div>
       </div>
     </div>
   </section>
