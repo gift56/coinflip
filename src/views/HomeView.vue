@@ -1,7 +1,9 @@
 <script setup>
-
+import Hero from "../components/Hero.vue";
 </script>
 
 <template>
-  <main class="text-3xl font-bold">Hello world</main>
+  <main>
+    <Hero />
+  </main>
 </template>
