@@ -13,7 +13,7 @@
   }
 
   .container {
-    @apply w-[90%] mx-auto lg:w-[80%];
+    @apply !w-[90%] mx-auto lg:!w-[85%];
   }
 
   .card {
