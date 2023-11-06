@@ -22,6 +22,7 @@
         </button>
       </RouterLink>
     </div>
+    <div class="w-full absolute h-full"></div>
   </section>
 </template>
 
