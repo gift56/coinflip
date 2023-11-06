@@ -59,7 +59,7 @@ export const graphData = [
     rate: "$56,290.30",
     percentage: "+1.68%",
     status: "good",
-    graphImage: graphIcon1,
+    graphImage: graphIcon4,
   },
   {
     coinName: "Polkadot",
@@ -67,6 +67,6 @@ export const graphData = [
     rate: "$42.22",
     percentage: "+7.56%",
     status: "good",
-    graphImage: graphIcon1,
+    graphImage: graphIcon5,
   },
 ];
