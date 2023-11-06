@@ -9,8 +9,14 @@
 body {
   @apply bg-bodyBg text-white;
 }
+
 img {
   user-select: none;
   -webkit-user-drag: none;
   cursor: not-allowed;
+}
+
+::selection{
+  background-color: #D0A22C;
+  color: white;
 }
