@@ -26,6 +26,7 @@
       <div class="relative w-full h-full">
         <img src="../assets/image/heroCircle.svg" alt="circle" class="w-full h-full object-cover" />
         <img src="../assets/image/heroImage1.png" alt="image" class="absolute top-[2%] left-[5%]">
+        <div></div>
       </div>
     </div>
   </section>
