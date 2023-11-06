@@ -5,5 +5,6 @@ import Hero from "../components/Hero.vue";
 <template>
   <main>
     <Hero />
+    <section class="h-screen w-full p-4">helldo</section>
   </main>
 </template>

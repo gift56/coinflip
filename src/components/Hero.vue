@@ -24,25 +24,29 @@
     </div>
     <div class="w-full absolute h-full top-0">
       <div class="relative w-full h-full">
-        <img
-          src="../assets/image/heroCircle.svg"
-          alt="circle"
-          class="w-full h-full object-cover"
-        />
-        <img
-          src="../assets/image/heroImage1.png"
-          alt="image"
-          class="absolute top-[2%] left-[5%] z-10"
-        />
         <div
           class="w-[170px] h-[251px] bg-blueBg absolute top-[-13%] left-[9%] rounded-full blur-[85px]"
         ></div>
-        <img src="../assets/image/heroImage2.png" alt="image"  class="absolute bottom-[35%] left-[5%] z-10" />
+        <div class="w-full h-full relative overflow-hidden">
+          <!-- <img
+            src="../assets/image/circle1.png"
+            alt="image"
+            class="absolute w-[80%] top-0"
+          />
+          <img
+            src="../assets/image/circle2.png"
+            alt="image"
+            class="absolute w-[1000px] h-[700px] left-[-5%] top-[-5%]"
+          /> -->
+          <img
+            src="../assets/image/circle3.png"
+            alt="image"
+            class="absolute w-[2000px] h-[1000px] object-cover top-[-25%] rotate-[-3deg]"
+          />
+        </div>
       </div>
     </div>
   </section>
 </template>
 
-<script>
-export default {};
-</script>
+<script setup></script>
