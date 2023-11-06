@@ -1,6 +1,6 @@
 <template>
   <section
-    className="w-full relative h-screen flex flex-col items-center justify-center"
+    className="w-full relative lg:h-[70vh] flex flex-col items-center justify-center"
   >
     <div
       class="flex flex-col w-full items-center justify-center gap-8 relative z-10"
@@ -22,14 +22,12 @@
         </button>
       </RouterLink>
     </div>
-    <div class="w-full absolute h-full top-0">
-      <div class="relative w-full h-full">
-        <div
-          class="w-[170px] h-[251px] bg-blueBg absolute top-[-13%] left-[9%] rounded-full blur-[85px]"
-        ></div>
-        
-      </div>
-    </div>
+    <div
+      class="w-[170px] h-[251px] bg-blueBg absolute top-[-13%] left-[9%] rounded-full blur-[85px]"
+    ></div>
+    <div
+      class="w-[500x] h-[901px] bg-blueBg absolute top-[-13%] right-0 rounded-full blur-[85px]"
+    ></div>
   </section>
 </template>
 
