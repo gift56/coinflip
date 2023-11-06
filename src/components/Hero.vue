@@ -9,10 +9,18 @@
         We make crypto <br class="hidden lg:block" />
         clear and simple
       </h1>
-      <p class="">
-        Buy, sell, and grow your crypto with CoinFlip, the platform dedicated
-        to every trader at every level.
+      <p class="lg:max-w-[580px] text-center text-base font-normal text-gray1">
+        Buy, sell, and grow your crypto with CoinFlip, the platform dedicated to
+        every trader at every level.
       </p>
+      <RouterLink to="/">
+        <button
+          type="button"
+          class="w-fit px-4 py-1 rounded-xl bg-btnLinear text-white outline-none text-lg font-semibold"
+        >
+          Get Started
+        </button>
+      </RouterLink>
     </div>
   </section>
 </template>
