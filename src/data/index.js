@@ -54,11 +54,11 @@ export const graphData = [
     graphImage: graphIcon1,
   },
   {
-    coinName: "Bitcoin",
-    prefix: "BTC",
-    rate: "$56,290.30",
-    percentage: "+1.68%",
-    status: "good",
+    coinName: "Wax",
+    prefix: "WAXP",
+    rate: "$0.97",
+    percentage: "-2.62%",
+    status: "bad",
     graphImage: graphIcon4,
   },
   {
