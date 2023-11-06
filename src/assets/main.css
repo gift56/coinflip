@@ -10,13 +10,17 @@ body {
   @apply bg-bodyBg text-white transition-all duration-300;
 }
 
+.container {
+  @apply w-[90%] mx-auto lg:w-[80%];
+}
+
 img {
   user-select: none;
   -webkit-user-drag: none;
   cursor: not-allowed;
 }
 
-::selection{
-  background-color: #D0A22C;
+::selection {
+  background-color: #d0a22c;
   color: white;
 }
