@@ -6,16 +6,18 @@
   font-family: "Inter", sans-serif;
 }
 
-body {
-  @apply bg-bodyBg text-white transition-all duration-300;
-}
+@layer base {
+  body {
+    @apply bg-bodyBg text-white transition-all duration-300;
+  }
 
-.container {
-  @apply w-[90%] mx-auto lg:w-[80%];
-}
+  .container {
+    @apply w-[90%] mx-auto lg:w-[80%];
+  }
 
-.card {
-  @apply flex flex-col items-center justify-center p-5 bg-cardDark text-white rounded-3xl group transition-all duration-300;
+  .card {
+    @apply flex flex-col items-center justify-center p-5 bg-cardDark rounded-3xl group transition-all duration-300;
+  }
 }
 
 img {
