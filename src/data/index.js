@@ -1,6 +1,11 @@
 import cardIcon1 from "../assets/icon/cardIcon1.png";
 import cardIcon2 from "../assets/icon/cardIcon2.png";
 import cardIcon3 from "../assets/icon/cardIcon3.png";
+import graphIcon1 from "../assets/icon/graph1.png";
+import graphIcon2 from "../assets/icon/graph2.png";
+import graphIcon3 from "../assets/icon/graph3.png";
+import graphIcon4 from "../assets/icon/graph4.png";
+import graphIcon5 from "../assets/icon/graph5.png";
 
 export const cardData = [
   {
@@ -22,3 +27,5 @@ export const cardData = [
     linkText: "Download the App",
   },
 ];
+
+export const graphData = [{}];
