@@ -33,12 +33,12 @@
           <i class="fa-solid fa-bars"></i>
         </span>
         <div
-          class="lg:hidden flex flex-col h-screen bg-black/40 gap-7 absolute top-0 w-full z-40 transition-all duration-300"
+          class="lg:hidden flex flex-col h-screen bg-black/20 gap-7 absolute top-0 w-full z-40 transition-all duration-300"
           :class="{ 'left-0': isMenuOpen, '-left-full': !isMenuOpen }"
         >
           <nav
             ref="menuRef"
-            className="flex flex-col h-full bg-white gap-5 p-4 w-[250px]"
+            className="flex flex-col h-full bg-cardDark gap-5 p-4 w-[250px]"
           >
             <div className="w-full flex items-center justify-end">
               <span @click="toggleMenu" className="text-dark text-2xl">
@@ -51,7 +51,6 @@
               :to="link.href"
               @click="toggleMenu"
               class="text-base font-medium text-dark"
-              :class="{ underline: link.href === $route.path }"
               >{{ link.text }}</RouterLink
             >
 
