@@ -29,11 +29,7 @@
             </button>
           </RouterLink>
         </div>
-        <span
-          @click="toggleMenu"
-          v-if="!isMenuOpen"
-          class="tab:hidden text-2xl"
-        >
+        <span @click="toggleMenu" v-if="!isMenuOpen" class="lg:hidden text-2xl">
           <i class="fa-solid fa-bars"></i>
         </span>
         <div
@@ -79,7 +75,35 @@
   </header>
 </template>
 
-<script>
+<script setup>
+import { ref, onMounted, onUnmounted } from "vue";
+
+const isMenuOpen = ref(false);
+const menuRef = ref(null);
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value;
+};
+
+const closeMenuOnClickOutside = (event) => {
+  if (
+    isMenuOpen.value &&
+    menuRef.value &&
+    !menuRef.value.contains(event.target)
+  ) {
+    isMenuOpen.value = false;
+  }
+};
+
+onMounted(() => {
+  document.addEventListener("mousedown", closeMenuOnClickOutside);
+});
+
+// Clean up the event listener when the component is unmounted
+onUnmounted(() => {
+  document.removeEventListener("mousedown", closeMenuOnClickOutside);
+});
+
 const navLinks = [
   {
     href: "/",
@@ -102,11 +126,4 @@ const navLinks = [
     text: "Support",
   },
 ];
-export default {
-  data() {
-    return {
-      navLinks,
-    };
-  },
-};
 </script>
