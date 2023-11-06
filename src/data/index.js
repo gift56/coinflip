@@ -1,3 +1,7 @@
-export const cardData=[{
-    
-}]
+
+
+export const cardData = [
+  {
+    icon: "",
+  },
+];
