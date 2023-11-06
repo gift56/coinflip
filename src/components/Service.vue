@@ -8,14 +8,14 @@
           v-for="(item, index) in cardData"
           :key="index"
           class="flex flex-col items-center justify-center p-5 bg-cardDark rounded-3xl transition-all duration-300 w-full"
-        ></div>
+        >
+          <img :src="item.icon" :alt="item.title" :srcset="item.icon" class="w-12 h-12 md:w-20 md:h-20 rounded-full object-contain" />
+        </div>
       </div>
     </div>
   </section>
 </template>
 
-<script>
-import { cardData } from '../data';
-
-export default {};
+<script setup>
+import { cardData } from "../data";
 </script>
