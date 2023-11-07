@@ -1,5 +1,5 @@
 <template>
-  <section>Transmission</section>
+  <section class="w-full">Transmission</section>
 </template>
 
 <script setup></script>
