@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full">
+  <section class="w-full relative">
     <div class="container">
       <div class="flex flex-col items-center justify-center gap-8 py-20 w-full">
         <div class="flex flex-col items-center justify-center gap-4 w-full">
@@ -86,5 +86,5 @@
 </template>
 
 <script setup>
-import { graphData } from "../data";
+import { graphData } from "@/data";
 </script>
