@@ -23,13 +23,13 @@
       </RouterLink>
     </div>
     <div
-      class="w-[170px] h-[251px] bg-blueBg absolute top-[-13%] left-[9%] rounded-full blur-[85px]"
+      class="lg:w-[170px] lg:h-[251px] bg-blueBg absolute top-[-13%] left-[9%] rounded-full blur-[85px]"
     ></div>
     <div
-      class="w-[350px] h-[350px] bg-purpleBg absolute bottom-[10%] right-0 rounded-full blur-[85px]"
+      class="lg:w-[350px] lg:h-[350px] bg-purpleBg absolute bottom-[10%] right-0 rounded-full blur-[85px]"
     ></div>
     <div
-      class="w-[240px] h-[240px] bg-lightBlueBg absolute bottom-[10%] right-0 rounded-full blur-[85px]"
+      class="wlg:-[240px] lg:h-[240px] bg-lightBlueBg absolute bottom-[10%] right-0 rounded-full blur-[85px]"
     ></div>
     <div class="w-full overflow-hidden">
       <img
@@ -37,7 +37,7 @@
         alt="heroImage"
         class="absolute top-[-25%]"
       />
-      <img src="../assets/image/heroImage1.png" alt="coin" />
+      <img src="../assets/image/heroImage1.png" alt="coin" class="absolute top-[-2%] left-[5%]" />
     </div>
   </section>
 </template>
