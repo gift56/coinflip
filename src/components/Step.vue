@@ -21,7 +21,7 @@
             >Get Started</RouterLink
           >
         </div>
-        <div class="w-full lg:flex-1 flex items-center justify-center">
+        <div class="w-full lg:flex-1 flex items-center justify-center relative">
           <img src="../assets/image/caseImage.png" alt="shieldImage" />
         </div>
       </div>
