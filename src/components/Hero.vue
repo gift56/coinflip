@@ -3,7 +3,7 @@
     className="w-full relative lg:h-[70vh] flex flex-col items-center justify-center"
   >
     <div
-      class="flex flex-col w-full items-center justify-center gap-8 relative z-10"
+      class="flex flex-col w-full items-center justify-center gap-8 relative z-10 py-6"
     >
       <h1 class="text-3xl font-extrabold md:text-6xl lg:text-7xl text-center">
         We make crypto <br class="hidden lg:block" />
@@ -23,13 +23,13 @@
       </RouterLink>
     </div>
     <div
-      class="lg:w-[170px] lg:h-[251px] bg-blueBg absolute top-[-13%] left-[9%] rounded-full blur-[85px]"
+      class="w-[70px] h-[70px] lg:w-[170px] lg:h-[251px] bg-blueBg absolute top-[-13%] left-[9%] rounded-full blur-[30px] lg:blur-[85px]"
     ></div>
     <div
       class="lg:w-[350px] lg:h-[350px] bg-purpleBg absolute bottom-[10%] right-0 rounded-full blur-[85px]"
     ></div>
     <div
-      class="lg:w-[240px] lg:h-[240px] bg-lightBlueBg absolute bottom-[10%] right-0 rounded-full blur-[85px]"
+      class="w-[70px] h-[70px] lg:w-[240px] lg:h-[240px] bg-lightBlueBg absolute bottom-[10%] right-0 rounded-full blur-[60px] lg:blur-[85px]"
     ></div>
     <div class="w-full overflow-hidden">
       <img
@@ -37,7 +37,7 @@
         alt="heroImage"
         class="absolute top-[-25%]"
       />
-      <img src="../assets/image/heroImage1.png" alt="coin" class="absolute top-[70%] lg:top-[-2%] left-[2%] lg:left-[5%] w-14 h-14" />
+      <img src="../assets/image/heroImage1.png" alt="coin" class="absolute top-[70%] lg:top-[-2%] left-[2%] lg:left-[5%] w-14 h-14 md:w-20 md:h-20" />
     </div>
   </section>
 </template>
