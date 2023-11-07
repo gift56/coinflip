@@ -2,7 +2,9 @@
   <section
     className="w-full relative lg:h-[70vh] flex flex-col items-center justify-center"
   >
-    <div class="flex flex-col w-full items-center justify-center gap-8 relative z-10">
+    <div
+      class="flex flex-col w-full items-center justify-center gap-8 relative z-10"
+    >
       <h1 class="text-3xl font-extrabold md:text-6xl lg:text-7xl text-center">
         We make crypto <br class="hidden lg:block" />
         clear and simple
@@ -35,6 +37,7 @@
         alt="heroImage"
         class="absolute top-[-25%]"
       />
+      <img src="../assets/image/heroImage1.png" alt="coin" />
     </div>
   </section>
 </template>
