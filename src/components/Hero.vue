@@ -29,7 +29,7 @@
       class="lg:w-[350px] lg:h-[350px] bg-purpleBg absolute bottom-[10%] right-0 rounded-full blur-[85px]"
     ></div>
     <div
-      class="wlg:-[240px] lg:h-[240px] bg-lightBlueBg absolute bottom-[10%] right-0 rounded-full blur-[85px]"
+      class="lg:w-[240px] lg:h-[240px] bg-lightBlueBg absolute bottom-[10%] right-0 rounded-full blur-[85px]"
     ></div>
     <div class="w-full overflow-hidden">
       <img
