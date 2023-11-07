@@ -49,8 +49,17 @@
           class="flex flex-col px-3 items-start justify-start bg-cardDark rounded-3xl transition-all duration-300 w-full overflow-hidden"
         >
           <div
-            v-for="graphInfo in graphData"
+            v-for="(graphInfo, index) in graphData"
             :key="graphInfo.coinName"
+            v-motion
+            :initial="{ opacity: 0, x: -150 }"
+            :visible="{
+              opacity: 1,
+              x: 0,
+              transition: {
+                delay: 100 * index,
+              },
+            }"
             class="w-full py-3 px-2 border-b border-[#2B2C3B] last:border-none grid gap-4 lg:gap-0 grid-cols-2 lg:flex items-center justify-between"
           >
             <div class="w-full">
