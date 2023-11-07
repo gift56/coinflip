@@ -25,7 +25,7 @@
     <img
       src="../assets/image/heroImage4.png"
       alt="star"
-      class="absolute top-[5%] right-[15%] w-16 h-16 hidden lg:block animate-pulse"
+      class="absolute top-[0%] left-[6%] w-10 h-10 hidden lg:block animate-pulse"
     />
   </section>
 </template>
