@@ -7,10 +7,11 @@
         </h3>
         <p class="text-base text-gray1 font-normal">
           Unsubscribe at any time.
-          <RouterLink to="/" class="text-white">
-            Privacy policy↗
-          </RouterLink>
+          <RouterLink to="/" class="text-white"> Privacy policy↗ </RouterLink>
         </p>
+        <div
+          class="w-full h-14 md:w-[304px] shadow-inputshad rounded-lg border border-[#18C8FF] flex items-center justify-between"
+        ></div>
       </div>
     </div>
   </section>

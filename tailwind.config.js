@@ -18,6 +18,10 @@ module.exports = {
         lightBlueBg:
           "linear-gradient(180deg, rgba(24, 75, 255, 0.00) 0%, #174AFF 100%)",
       },
+      boxShadow: {
+        inputshad:
+          "0px 2px 2px 0px rgba(255, 255, 255, 0.15) inset, 0px 0px 30px 0px rgba(255, 255, 255, 0.05) inset",
+      },
     },
   },
   plugins: [],
