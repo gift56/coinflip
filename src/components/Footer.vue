@@ -8,6 +8,12 @@
           <RouterLink to="/">
             <img src="@/assets/image/logo.svg" alt="logo" />
           </RouterLink>
+          <p>
+            CoinFlip, the world’s leading bitcoin ATM operator, makes it so
+            flippin’ easy to buy and sell bitcoin via cash, card, or bank
+            transfer. Sign up to get the latest in CoinFlip news, discounts,
+            and more.
+          </p>
         </div>
         <div class="w-full"></div>
         <div class="w-full"></div>
