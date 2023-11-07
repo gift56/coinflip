@@ -28,13 +28,15 @@
           </RouterLink>
         </div>
         <div class="flex flex-col items-start justify-start bg-cardDark rounded-3xl transition-all duration-300 w-full">
-          
+          <div v-for="graphInfo in graphData"></div>
         </div>
       </div>
     </div>
   </section>
 </template>
 
-<script>
-export default {};
+<script setup>
+import { graphData } from '../data';
+
+
 </script>
