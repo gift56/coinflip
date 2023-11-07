@@ -1,6 +1,6 @@
 <template>
-  <footer class="w-full border-t border-[#2B2C3B] relative">
-    <div class="container">
+  <footer class="w-full border-t border-[#2B2C3B] relative overflow-hidden">
+    <div class="container relative z-10">
       <div
         class="w-full py-20 flex flex-col items-start justify-between md:flex-row gap-8"
       >
@@ -49,7 +49,7 @@
       </div>
     </div>
     <div
-      class="w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] rounded-full bg-footerlightBlueBg"
+      class="w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] rounded-full bg-footerlightBlueBg absolute top-[54%] left-[-3%]  blur-[150px]"
     ></div>
   </footer>
 </template>
