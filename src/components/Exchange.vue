@@ -62,8 +62,14 @@
                 {{ graphInfo.percentage }}
               </h6>
             </div>
-            <div class="w-full flex lg:items-center lg:justify-center pr-4 lg:pr-0 lg:pl-4">
-              <img :src="graphInfo.graphImage" :alt="graphInfo.coinName" class="w-full object-contain" />
+            <div
+              class="w-full flex lg:items-center lg:justify-center pr-4 lg:pr-0 lg:pl-4"
+            >
+              <img
+                :src="graphInfo.graphImage"
+                :alt="graphInfo.coinName"
+                class="w-full object-contain"
+              />
             </div>
             <div class="w-full">
               <RouterLink
@@ -82,6 +88,9 @@
         </div>
       </div>
     </div>
+    <div
+      class="w-[350px] h-[350px] bg-orangeBg rounded-full absolute"
+    ></div>
   </section>
 </template>
 
