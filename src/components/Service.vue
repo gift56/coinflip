@@ -16,6 +16,11 @@
             great support from real people is a click away, whenever you need
             it.
           </p>
+          <RouterLink
+            to="/"
+            class="text-lg font-semibold border w-fit px-4 py-2 rounded-xl"
+            >Get Started</RouterLink
+          >
         </div>
       </div>
     </div>
