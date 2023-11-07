@@ -33,7 +33,7 @@
       <img
         src="../assets/image/heroCircle.svg"
         alt="heroImage"
-        class="absolute inset-0"
+        class="absolute top-[-25%]"
       />
     </div>
   </section>

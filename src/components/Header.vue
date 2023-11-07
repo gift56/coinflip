@@ -1,6 +1,6 @@
 <template>
   <header class="w-full bg-transparent">
-    <div class="container">
+    <div class="container relative z-40">
       <nav class="w-full flex items-center justify-between gap-6 py-6">
         <RouterLink to="/">
           <img src="@/assets/image/logo.svg" alt="logo" />
