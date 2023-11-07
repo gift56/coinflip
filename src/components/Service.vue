@@ -6,7 +6,7 @@
       >
         <div class="w-full lg:flex-1 relative">
           <div
-            class="w-[100px] h-[100px] bg-orangeBg rounded-full absolute top-0 left-0 blur-[50px]"
+            class="w-[100px] h-[100px] md:w-[350px] md:h-[350px] bg-orangeBg rounded-full absolute top-0 left-0 md:left-[-20%] md:top-[-15%] blur-[50px] md:blur-[80px]"
           ></div>
           <img
             src="../assets/image/shieldImage.png"
