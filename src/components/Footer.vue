@@ -2,6 +2,4 @@
   <footer>Fopter</footer>
 </template>
 
-<script>
-export default {};
-</script>
+<script setup></script>
