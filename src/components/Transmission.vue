@@ -5,7 +5,7 @@
         <h3 class="text-3xl font-extrabold md:text-5xl text-center">
           Receive transmissions
         </h3>
-        <p class="text-base text-gray1 font-normal">
+        <p class="text-sm md:text-base text-gray1 font-normal">
           Unsubscribe at any time.
           <RouterLink to="/" class="text-white"> Privacy policy↗ </RouterLink>
         </p>
