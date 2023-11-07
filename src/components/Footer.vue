@@ -30,7 +30,7 @@
             </li>
           </ul>
         </div>
-        <div class="w-full"></div>
+        <div class="w-full flex flex-wrap gap-6"></div>
       </div>
     </div>
   </footer>
