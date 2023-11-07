@@ -2,7 +2,7 @@
   <section class="w-full">
     <div class="container">
       <div class="flex flex-col w-full items-center justify-center gap-8 py-20">
-        <h1 class="text-3xl font-extrabold md:text-6xl text-center">
+        <h1 class="text-3xl font-extrabold md:text-5xl text-center">
           A crypto investment <br class="hidden lg:block" />
           platform that invests in you
         </h1>
