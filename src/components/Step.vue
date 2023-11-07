@@ -22,7 +22,17 @@
           >
         </div>
         <div class="w-full lg:flex-1 flex items-center justify-center relative">
-          <img src="../assets/image/caseImage.png" alt="shieldImage" />
+          <img
+            src="../assets/image/caseImage.png"
+            alt="shieldImage"
+            class="relative z-20"
+          />
+          <div
+            class="w-[70px] h-[70px] lg:w-[350px] lg:h-[350px] bg-lightBlueBg absolute bottom-[10%] right-0 rounded-full z-10 blur-[50px]"
+          ></div>
+          <div
+            class="w-[70px] h-[70px] lg:w-[350px] lg:h-[350px] bg-purpleBg absolute bottom-[10%] right-0 rounded-full blur-[50px]"
+          ></div>
         </div>
       </div>
     </div>
