@@ -9,6 +9,10 @@
             <span>Buy and sell with the lowest</span>
             <span>fees in the industry</span>
           </h3>
+          <p class="text-base text-gray1 font-normal lg:max-w-[580px] text-center ">
+            Buy and sell 150+ cryptocurrencies with 20+ fiat currencies using
+            bank transfers or your credit/debit card.
+          </p>
         </div>
       </div>
     </div>
