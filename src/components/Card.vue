@@ -13,7 +13,7 @@
             opacity: 1,
             scale: 1,
             transition: {
-              delay: 150,
+              delay: 100 * index,
             },
           }"
           class="flex flex-col gap-6 items-center justify-center py-5 px-3 bg-cardDark rounded-3xl transition-all duration-300 w-full"

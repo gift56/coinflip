@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full">
+  <section class="w-full overflow-hidden lg:overflow-auto">
     <div class="container">
       <div
         class="w-full flex flex-col lg:flex-row items-start justify-start lg:justify-between gap-8 relative py-20"
@@ -52,9 +52,7 @@
             >Get Started</RouterLink
           >
         </div>
-        <div
-          class="w-full lg:flex-1 flex items-center justify-center relative"
-        >
+        <div class="w-full lg:flex-1 flex items-center justify-center relative">
           <img
             v-motion
             :initial="{ opacity: 0, x: 150 }"
