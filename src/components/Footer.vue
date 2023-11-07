@@ -48,6 +48,7 @@
         </div>
       </div>
     </div>
+    <div class="w-[400px] h-[400px] rounded-full"></div>
   </footer>
 </template>
 
