@@ -10,6 +10,7 @@ module.exports = {
         gray2: "#B982FF",
       },
       backgroundImage: {
+        heroBg: "url('./image/heroCircle.svg')",
         btnLinear: "linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%)",
         blueBg:
           "linear-gradient(180deg, rgba(24, 255, 158, 0.00) 0%, #17FFE3 100%)",

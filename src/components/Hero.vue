@@ -63,7 +63,6 @@
       class="w-[70px] h-[70px] lg:w-[240px] lg:h-[240px] bg-lightBlueBg absolute bottom-[10%] right-0 rounded-full blur-[60px] lg:blur-[85px]"
     ></div>
     <div class="w-full mainMan">
-      
       <img
         v-motion
         :initial="{ opacity: 0, scale: 0 }"
