@@ -7,7 +7,7 @@
         </h3>
         <p class="text-base text-gray1 font-normal">
           Unsubscribe at any time.
-          <RouterLink to="/" class="text-white text-base">
+          <RouterLink to="/" class="text-white">
             Privacy policy↗
           </RouterLink>
         </p>
