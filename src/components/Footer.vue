@@ -49,7 +49,7 @@
       </div>
     </div>
     <div
-      class="w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] rounded-full bg-footerlightBlueBg absolute top-[54%] left-[-3%]  blur-[150px]"
+      class="w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] rounded-full bg-footerlightBlueBg absolute top-[50%] left-[-2%] blur-[100px]"
     ></div>
   </footer>
 </template>
