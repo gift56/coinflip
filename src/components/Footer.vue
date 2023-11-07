@@ -48,7 +48,9 @@
         </div>
       </div>
     </div>
-    <div class="w-[400px] h-[400px] rounded-full"></div>
+    <div
+      class="w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] rounded-full bg-footerlightBlueBg"
+    ></div>
   </footer>
 </template>
 
