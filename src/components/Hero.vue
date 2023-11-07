@@ -43,6 +43,9 @@
       <img src="../assets/image/heroImage4.png" alt="star" class="absolute top-[5%] right-[15%] w-16 h-16 hidden lg:block" />
       <img src="../assets/image/heroImage5.png" alt="coin" class="absolute top-[26%] right-[10%] w-28 h-28 hidden lg:block" />
       <img src="../assets/image/heroImage6.png" alt="coin" class="absolute top-[70%] right-[13%] w-28 h-28 hidden lg:block" />
+      <img src="../assets/image/heroImage7.png" alt="coin" class="absolute top-[60%] right-[0%] w-40 h-60 hidden lg:block" />
+      <img src="../assets/image/heroImage8.png" alt="coin" class="absolute top-[80%] right-[30%] w-10 h-10 hidden lg:block animate-pulse" />
+      <img src="../assets/image/heroImage8.png" alt="coin" class="absolute top-[25%] delay-300 left-[16%] w-10 h-10 hidden lg:block animate-pulse" />
     </div>
   </section>
 </template>
