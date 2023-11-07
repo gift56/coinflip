@@ -4,12 +4,30 @@
       <div class="flex flex-col items-center justify-center gap-8 py-20 w-full">
         <div class="flex flex-col items-center justify-center gap-4 w-full">
           <h3
+            v-motion
+            :initial="{ opacity: 0, y: 50 }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                delay: 100,
+              },
+            }"
             class="text-3xl font-extrabold md:text-5xl lg:flex lg:flex-col items-center justify-center text-center"
           >
             <span>Buy and sell with the lowest</span>
             <span>fees in the industry</span>
           </h3>
           <p
+            v-motion
+            :initial="{ opacity: 0, y: 50 }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                delay: 100,
+              },
+            }"
             class="text-base text-gray1 font-normal lg:max-w-[580px] text-center"
           >
             Buy and sell 150+ cryptocurrencies with 20+ fiat currencies using
@@ -28,7 +46,7 @@
           </RouterLink>
         </div>
         <div
-          class="flex flex-col px-3 items-start justify-start bg-cardDark rounded-3xl transition-all duration-300 w-full"
+          class="flex flex-col px-3 items-start justify-start bg-cardDark rounded-3xl transition-all duration-300 w-full overflow-hidden"
         >
           <div
             v-for="graphInfo in graphData"
