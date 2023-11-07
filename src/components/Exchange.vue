@@ -36,11 +36,32 @@
             class="w-full py-3 px-2 border-b border-gray1 last:border-none grid grid-cols-2 lg:flex items-center justify-between"
           >
             <div class="w-full">
-              <h4 class="text-lg font-bold text-white">{{ graphInfo.coinName }}</h4>
+              <h4 class="text-lg font-bold md:text-xl text-white">
+                {{ graphInfo.coinName }}
+              </h4>
             </div>
-            <div class="w-full"></div>
-            <div class="w-full"></div>
-            <div class="w-full"></div>
+            <div class="w-full flex items-center justify-center">
+              <h5 class="text-lg font-bold md:text-xl text-gray2">
+                {{ graphInfo.prefix }}
+              </h5>
+            </div>
+            <div class="w-full flex items-end justify-end">
+              <h5 class="text-lg font-bold md:text-xl text-white">
+                {{ graphInfo.rate }}
+              </h5>
+            </div>
+            <div class="w-full flex items-end justify-end">
+              <h6
+                class="text-lg font-bold md:text-xl"
+                :class="
+                  { 'text-[#0DBB7C]': graphInfo.status === 'good' } || {
+                    'text-[#FF8282]': graphInfo.status === 'bad',
+                  }
+                "
+              >
+                {{ graphInfo.percentage }}
+              </h6>
+            </div>
             <div class="w-full"></div>
           </div>
         </div>
