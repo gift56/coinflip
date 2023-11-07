@@ -37,7 +37,7 @@
         alt="heroImage"
         class="absolute top-[-25%]"
       />
-      <img src="../assets/image/heroImage1.png" alt="coin" class="absolute top-[-2%] left-[5%]" />
+      <img src="../assets/image/heroImage1.png" alt="coin" class="absolute top-[70%] lg:top-[-2%] left-[2%] lg:left-[5%] w-14 h-14" />
     </div>
   </section>
 </template>
