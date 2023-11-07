@@ -2,9 +2,7 @@
   <section
     className="w-full relative lg:h-[70vh] flex flex-col items-center justify-center"
   >
-    <div
-      class="flex flex-col w-full items-center justify-center gap-8"
-    >
+    <div class="flex flex-col w-full items-center justify-center gap-8 relative z-10">
       <h1 class="text-3xl font-extrabold md:text-6xl lg:text-7xl text-center">
         We make crypto <br class="hidden lg:block" />
         clear and simple
@@ -30,8 +28,14 @@
     ></div>
     <div
       class="w-[240px] h-[240px] bg-lightBlueBg absolute bottom-[10%] right-0 rounded-full blur-[85px]"
-    >
-  </div>
+    ></div>
+    <div class="w-full overflow-hidden">
+      <img
+        src="../assets/image/heroCircle.svg"
+        alt="heroImage"
+        class="absolute inset-0"
+      />
+    </div>
   </section>
 </template>
 
