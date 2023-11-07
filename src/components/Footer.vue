@@ -30,10 +30,32 @@
             </li>
           </ul>
         </div>
-        <div class="w-full flex flex-wrap gap-6"></div>
+        <div class="w-full flex flex-col items-start justify-start gap-3">
+          <h3 class="text-sm font-bold text-white">
+            Privacy Policy and Terms of Service
+          </h3>
+          <ul class="w-full flex flex-col items-start justify-start gap-4">
+            <li
+              v-for="(text, index) in termlinks"
+              :key="index"
+              class="cursor-pointer text-sm font-normal text-gray1"
+            >
+              {{ text }}
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </footer>
 </template>
 
-<script setup></script>
+<script setup>
+const links = ["About", "Career", "Press", "News", "Merch"];
+const termlinks = [
+  "CoinFlip Privacy Policy",
+  "CoinFlip Biometrics Privacy Policy",
+  "CoinFlip Financial Privacy Notice",
+  "CoinFlip Terms of Service",
+  "CoinFlip Trade Desk Terms of Service",
+];
+</script>
