@@ -6,7 +6,10 @@
           Receive transmissions
         </h3>
         <p class="text-base text-gray1 font-normal">
-          Unsubscribe at any time. Privacy policy↗
+          Unsubscribe at any time.
+          <RouterLink to="/" class="text-white text-base">
+            Privacy policy↗
+          </RouterLink>
         </p>
       </div>
     </div>
