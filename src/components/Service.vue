@@ -8,7 +8,7 @@
           <img src="../assets/image/shieldImage.png" alt="shieldImage" />
         </div>
         <div class="w-full lg:flex-1 flex flex-col items-start justify-start">
-
+          <h3 class="text-3xl font-extrabold md:text-4xl">24/7 access to full service customer support</h3>
         </div>
       </div>
     </div>
