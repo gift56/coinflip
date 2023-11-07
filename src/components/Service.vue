@@ -7,9 +7,20 @@
         <div
           v-for="(item, index) in cardData"
           :key="index"
-          class="flex flex-col items-center justify-center p-5 bg-cardDark rounded-3xl transition-all duration-300 w-full"
+          class="flex flex-col gap-6 items-center justify-center py-5 px-3 bg-cardDark rounded-3xl transition-all duration-300 w-full"
         >
-          <img :src="item.icon" :alt="item.title" :srcset="item.icon" class="w-12 h-12 md:w-20 md:h-20 rounded-full object-contain" />
+          <img
+            :src="item.icon"
+            :alt="item.title"
+            :srcset="item.icon"
+            class="w-12 h-12 md:w-20 md:h-20 rounded-full object-contain"
+          />
+          <h3 class="text-2xl font-bold md:text-3xl text-center">
+            {{ item.title }}
+          </h3>
+          <p class="text-center text-gray1 text-base font-normal">
+            {{ item.desc }}
+          </p>
         </div>
       </div>
     </div>
