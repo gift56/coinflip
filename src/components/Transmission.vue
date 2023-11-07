@@ -12,7 +12,7 @@
         <div
           class="w-full h-14 md:w-[304px] shadow-inputshad rounded-lg border border-[#18C8FF] flex items-center justify-between bg-bodyBg"
         >
-          <input type="text" placeholder="Email Address" class="w-full h-full outline-none text-sm font-normal tex-gray1" />
+          <input type="text" placeholder="Email Address" class="w-full h-full outline-none text-sm font-normal text-gray1" />
           <img src="../assets/icon/arrowIcon.png" alt="arrow" />
         </div>
       </div>
