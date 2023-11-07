@@ -11,7 +11,14 @@
         </p>
         <div
           class="w-full h-14 md:w-[304px] shadow-inputshad rounded-lg border border-[#18C8FF] flex items-center justify-between"
-        ></div>
+        >
+          <input type="text" />
+          <img
+            src="../assets/icon/arrowIcon.png"
+            alt="arrow"
+            class="group-hover:ml-3 transition-all duration-300"
+          />
+        </div>
       </div>
     </div>
   </section>
