@@ -27,8 +27,10 @@
             />
           </RouterLink>
         </div>
-        <div class="flex flex-col items-start justify-start bg-cardDark rounded-3xl transition-all duration-300 w-full">
-          <div v-for="graphInfo in graphData"></div>
+        <div
+          class="flex flex-col items-start justify-start bg-cardDark rounded-3xl transition-all duration-300 w-full"
+        >
+          <div v-for="graphInfo in graphData" :key="graphInfo.coinName" class="w-full py-3 px-2 border-b border-gray1 last:border-none grid grid-cols-2 lg:flex items-center justify-between"></div>
         </div>
       </div>
     </div>
@@ -36,7 +38,5 @@
 </template>
 
 <script setup>
-import { graphData } from '../data';
-
-
+import { graphData } from "../data";
 </script>
