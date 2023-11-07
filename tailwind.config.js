@@ -26,6 +26,19 @@ module.exports = {
         inputshad:
           "0px 2px 2px 0px rgba(255, 255, 255, 0.15) inset, 0px 0px 30px 0px rgba(255, 255, 255, 0.05) inset",
       },
+      animation: {
+        bganimate: "bganimate 8s linear infinite alternate",
+      },
+      keyframes: {
+        bganimate: {
+          "0%": {
+            backgroundPosition: "-150px -150px",
+          },
+          "100%": {
+            backgroundPosition: "30px 50px",
+          },
+        },
+      },
     },
   },
   plugins: [],

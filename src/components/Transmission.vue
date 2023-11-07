@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full">
+  <section class="w-full overflow-hidden lg:overflow-auto">
     <div class="container">
       <div class="w-full flex flex-col items-center justify-center gap-6 py-14">
         <h3

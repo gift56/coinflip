@@ -1,6 +1,6 @@
 <template>
   <section
-    className="w-full relative lg:h-[70vh] flex flex-col items-center justify-center"
+    className="w-full relative lg:h-screen flex flex-col items-center justify-center bg-heroBg animate-bganimate bg-no-repeat bg-cover bg-[center_top_-2rem]"
   >
     <div
       class="flex flex-col w-full items-center justify-center gap-8 relative z-10 py-6"
@@ -62,7 +62,7 @@
     <div
       class="w-[70px] h-[70px] lg:w-[240px] lg:h-[240px] bg-lightBlueBg absolute bottom-[10%] right-0 rounded-full blur-[60px] lg:blur-[85px]"
     ></div>
-    <div class="w-full mainMan">
+    <div class="w-full mainMan overflow-hidden lg:overflow-auto">
       <img
         v-motion
         :initial="{ opacity: 0, scale: 0 }"
@@ -75,7 +75,7 @@
         }"
         src="../assets/image/heroImage1.png"
         alt="coin"
-        class="absolute top-[70%] lg:top-[-2%] left-[2%] lg:left-[5%] w-14 h-14 md:w-32 md:h-32"
+        class="absolute top-[70%] lg:top-[-2%] left-[2%] lg:left-[5%] w-14 h-14 md:w-32 md:h-32 img"
       />
       <img
         v-motion
@@ -89,7 +89,7 @@
         }"
         src="../assets/image/heroImage2.png"
         alt="ball"
-        class="absolute top-[60%] left-[5%] w-28 h-28 hidden lg:block"
+        class="absolute top-[60%] left-[5%] w-28 h-28 hidden lg:block img"
       />
       <img
         v-motion
@@ -103,7 +103,7 @@
         }"
         src="../assets/image/heroImage3.png"
         alt="coin"
-        class="absolute top-[95%] left-[20%] w-28 h-28 hidden lg:block"
+        class="absolute top-[95%] left-[20%] w-28 h-28 hidden lg:block img"
       />
       <img
         src="../assets/image/heroImage4.png"
@@ -122,7 +122,7 @@
         }"
         src="../assets/image/heroImage5.png"
         alt="coin"
-        class="absolute top-[26%] right-0 lg:right-[10%] w-14 h-14 md:w-28 md:h-28"
+        class="absolute top-[26%] right-0 lg:right-[10%] w-14 h-14 md:w-28 md:h-28 img"
       />
       <img
         v-motion
@@ -136,12 +136,12 @@
         }"
         src="../assets/image/heroImage6.png"
         alt="coin"
-        class="absolute top-[70%] right-0 lg:right-[13%] w-14 h-14 md:w-28 md:h-28"
+        class="absolute top-[70%] right-0 lg:right-[13%] w-14 h-14 md:w-28 md:h-28 img"
       />
       <img
         src="../assets/image/heroImage7.png"
         alt="ball"
-        class="absolute top-[60%] right-[0%] w-40 h-60 hidden lg:block"
+        class="absolute top-[60%] right-[0%] w-40 h-60 hidden lg:block animate-pulse"
       />
       <img
         src="../assets/image/heroImage8.png"

@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full relative">
+  <section class="w-full overflow-hidden lg:overflow-auto relative">
     <div class="container relative z-10">
       <div class="flex flex-col items-center justify-center gap-8 py-20 w-full">
         <div class="flex flex-col items-center justify-center gap-4 w-full">
