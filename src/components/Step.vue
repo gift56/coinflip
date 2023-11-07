@@ -17,7 +17,7 @@
           </p>
           <RouterLink
             to="/"
-            class="text-lg font-semibold border w-fit px-4 py-2 rounded-xl"
+            class="w-fit px-6 py-3 rounded-xl bg-btnLinear text-white outline-none text-lg font-semibold"
             >Get Started</RouterLink
           >
         </div>
