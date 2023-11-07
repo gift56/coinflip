@@ -37,7 +37,7 @@
       <img
         src="../assets/image/heroImage8.png"
         alt="star"
-        class="absolute bottom-[10%] delay-300 left-[-5%] w-8 h-8 block animate-pulse"
+        class="absolute bottom-0 md:bottom-[10%] delay-300 left-[-5%] w-8 h-8 block animate-pulse"
       />
     </div>
   </section>
