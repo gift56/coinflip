@@ -17,8 +17,8 @@ module.exports = {
           "linear-gradient(180deg, rgba(0, 194, 255, 0.00) 0%, #FF29C3 100%)",
         lightBlueBg:
           "linear-gradient(180deg, rgba(24, 75, 255, 0.00) 0%, #174AFF 100%)",
-        footerlightBlueBg:
-          "linear-gradient(180deg, #2C4982 0%, #2CD095 100%)",
+        footerlightBlueBg: "linear-gradient(180deg, #2C4982 0%, #2CD095 100%)",
+        orangeBg: "linear-gradient(180deg, #82392C 0%, #D0A22C 100%)",
       },
       boxShadow: {
         inputshad:
