@@ -28,10 +28,10 @@
             class="relative z-20"
           />
           <div
-            class="w-[70px] h-[70px] lg:w-[300px] lg:h-[300px] bg-lightBlueBg absolute bottom-[10%] right-0 rounded-full z-10 blur-[50px]"
+            class="w-[90px] h-[90px] lg:w-[300px] lg:h-[300px] bg-lightBlueBg absolute bottom-[10%] right-0 rounded-full z-10 blur-[50px]"
           ></div>
           <div
-            class="w-[70px] h-[70px] lg:w-[350px] lg:h-[350px] bg-purpleBg absolute bottom-[10%] right-0 rounded-full blur-[50px]"
+            class="w-[90px] h-[90px] lg:w-[350px] lg:h-[350px] bg-purpleBg absolute bottom-[10%] right-0 rounded-full blur-[50px]"
           ></div>
         </div>
       </div>

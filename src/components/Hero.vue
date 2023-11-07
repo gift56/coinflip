@@ -35,7 +35,7 @@
       <img
         src="../assets/image/heroCircle.svg"
         alt="heroImage"
-        class="absolute top-[-25%]"
+        class="absolute top-[-25%] egg-sphere"
       />
       <img
         src="../assets/image/heroImage1.png"
