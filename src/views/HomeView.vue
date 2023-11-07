@@ -5,6 +5,7 @@ import Service from "../components/Service.vue";
 import Invest from "../components/Invest.vue";
 import Exchange from "../components/Exchange.vue";
 import Step from "../components/Step.vue";
+import Transmission from "../components/Transmission.vue";
 </script>
 
 <template>
@@ -15,5 +16,6 @@ import Step from "../components/Step.vue";
     <Service />
     <Exchange />
     <Step />
+    <Transmission />
   </main>
 </template>
