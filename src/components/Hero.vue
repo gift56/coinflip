@@ -1,6 +1,6 @@
 <template>
   <section
-    className="w-full relative lg:h-screen flex flex-col items-center justify-center bg-heroBg animate-bganimate bg-no-repeat bg-cover bg-[center_top_-2rem]"
+    className="w-full relative lg:h-screen flex flex-col items-center justify-center bg-heroBg animate-bganimate bg-no-repeat bg-cover bg-[center_top_-2rem]  overflow-hidden lg:overflow-visible"
   >
     <div
       class="flex flex-col w-full items-center justify-center gap-8 relative z-10 py-6"
@@ -62,7 +62,7 @@
     <div
       class="w-[70px] h-[70px] lg:w-[240px] lg:h-[240px] bg-lightBlueBg absolute bottom-[10%] right-0 rounded-full blur-[60px] lg:blur-[85px]"
     ></div>
-    <div class="w-full mainMan overflow-hidden lg:overflow-auto">
+    <div class="w-full mainMan">
       <img
         v-motion
         :initial="{ opacity: 0, scale: 0 }"
