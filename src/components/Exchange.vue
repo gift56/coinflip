@@ -1,6 +1,6 @@
 <template>
   <section class="w-full relative">
-    <div class="container">
+    <div class="container relative z-10">
       <div class="flex flex-col items-center justify-center gap-8 py-20 w-full">
         <div class="flex flex-col items-center justify-center gap-4 w-full">
           <h3
@@ -89,7 +89,7 @@
       </div>
     </div>
     <div
-      class="w-[350px] h-[350px] bg-orangeBg rounded-full absolute"
+      class="w-[150px] h-[150px] md:w-[300px] md:h-[300px] bg-blueLinearBg rounded-full absolute top-[-10%] lg:top-0 right-0 blur-[80px]"
     ></div>
   </section>
 </template>
