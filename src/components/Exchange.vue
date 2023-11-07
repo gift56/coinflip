@@ -9,10 +9,23 @@
             <span>Buy and sell with the lowest</span>
             <span>fees in the industry</span>
           </h3>
-          <p class="text-base text-gray1 font-normal lg:max-w-[580px] text-center ">
+          <p
+            class="text-base text-gray1 font-normal lg:max-w-[580px] text-center"
+          >
             Buy and sell 150+ cryptocurrencies with 20+ fiat currencies using
             bank transfers or your credit/debit card.
           </p>
+          <RouterLink
+            to="/"
+            class="flex items-center justify-center gap-1 group text-gray2 text-base font-semibold"
+          >
+            Learn More
+            <img
+              src="../assets/icon/arrowIcon.png"
+              alt="arrow"
+              class="group-hover:ml-3 transition-all duration-300"
+            />
+          </RouterLink>
         </div>
       </div>
     </div>
