@@ -1,5 +1,5 @@
 <template>
-  <section>Exchange</section>
+  <section class="w-full"></section>
 </template>
 
 <script>
