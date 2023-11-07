@@ -20,7 +20,7 @@
         <p
           v-motion
           :initial="{ opacity: 0, y: 50 }"
-          :enter="{
+          :visible="{
             opacity: 1,
             y: 0,
             transition: {
@@ -34,6 +34,15 @@
         </p>
         <RouterLink to="/">
           <button
+            v-motion
+            :initial="{ opacity: 0, scale: 0 }"
+            :visible="{
+              opacity: 1,
+              scale: 1,
+              transition: {
+                delay: 100,
+              },
+            }"
             type="button"
             class="w-fit px-6 py-3 rounded-xl bg-btnLinear text-white outline-none text-lg font-semibold"
           >
