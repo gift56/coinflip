@@ -30,7 +30,19 @@
         <div
           class="flex flex-col items-start justify-start bg-cardDark rounded-3xl transition-all duration-300 w-full"
         >
-          <div v-for="graphInfo in graphData" :key="graphInfo.coinName" class="w-full py-3 px-2 border-b border-gray1 last:border-none grid grid-cols-2 lg:flex items-center justify-between"></div>
+          <div
+            v-for="graphInfo in graphData"
+            :key="graphInfo.coinName"
+            class="w-full py-3 px-2 border-b border-gray1 last:border-none grid grid-cols-2 lg:flex items-center justify-between"
+          >
+            <div class="w-full">
+              <h4>{{ graphInfo.coinName }}</h4>
+            </div>
+            <div class="w-full"></div>
+            <div class="w-full"></div>
+            <div class="w-full"></div>
+            <div class="w-full"></div>
+          </div>
         </div>
       </div>
     </div>
