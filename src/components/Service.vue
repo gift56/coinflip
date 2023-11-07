@@ -21,6 +21,13 @@
           <p class="text-center text-gray1 text-base font-normal">
             {{ item.desc }}
           </p>
+          <RouterLink
+            to="/"
+            class="flex items-center justify-center gap-1 group text-gray2 text-base font-semibold"
+          >
+            {{ item.linkText }}
+            <img src="../assets/icon/arrowIcon.png" alt="arrow" class="group-hover:ml-3 transition-all duration-300" />
+          </RouterLink>
         </div>
       </div>
     </div>
