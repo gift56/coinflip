@@ -12,12 +12,8 @@
         <div
           class="w-full h-14 md:w-[304px] shadow-inputshad rounded-lg border border-[#18C8FF] flex items-center justify-between"
         >
-          <input type="text" />
-          <img
-            src="../assets/icon/arrowIcon.png"
-            alt="arrow"
-            class="group-hover:ml-3 transition-all duration-300"
-          />
+          <input type="text" placeholder="Email Address" class="w-full" />
+          <img src="../assets/icon/arrowIcon.png" alt="arrow" />
         </div>
       </div>
     </div>
