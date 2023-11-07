@@ -62,7 +62,20 @@
                 {{ graphInfo.percentage }}
               </h6>
             </div>
-            <div class="w-full"></div>
+            <div class="w-full">
+              <img :src="graphInfo.graphImage" :alt="graphInfo.coinName" />
+            </div>
+            <RouterLink
+              to="/"
+              class="flex items-center justify-center gap-1 group text-white text-base font-semibold"
+            >
+              Trade Now
+              <img
+                src="../assets/icon/arrowIcon.png"
+                alt="arrow"
+                class="group-hover:ml-3 transition-all duration-300"
+              />
+            </RouterLink>
           </div>
         </div>
       </div>
