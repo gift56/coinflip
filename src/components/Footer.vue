@@ -51,6 +51,7 @@
     <div
       class="w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] rounded-full bg-footerlightBlueBg absolute top-[50%] left-[-2%] blur-[100px]"
     ></div>
+    <img src="../assets/image/heroCircle.svg" alt="heroImage">
   </footer>
 </template>
 
