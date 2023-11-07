@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full">
+  <section class="w-full relative overflow-hidden">
     <div class="container">
       <div class="flex flex-col w-full items-center justify-center gap-8 py-20">
         <h1 class="text-2xl font-extrabold md:text-5xl text-center">
@@ -22,6 +22,11 @@
         </RouterLink>
       </div>
     </div>
+    <img
+      src="../assets/image/heroImage4.png"
+      alt="star"
+      class="absolute top-[5%] right-[15%] w-16 h-16 hidden lg:block animate-pulse"
+    />
   </section>
 </template>
 
