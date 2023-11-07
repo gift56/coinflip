@@ -27,6 +27,7 @@
       alt="star"
       class="absolute top-[0%] left-[6%] w-10 h-10 hidden lg:block animate-pulse"
     />
+    <img src="../assets/image/looper.svg" alt="looper" />
   </section>
 </template>
 
