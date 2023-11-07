@@ -38,6 +38,7 @@
         class="absolute top-[-25%]"
       />
       <img src="../assets/image/heroImage1.png" alt="coin" class="absolute top-[70%] lg:top-[-2%] left-[2%] lg:left-[5%] w-14 h-14 md:w-32 md:h-32" />
+      <img src="../assets/image/heroImage2.png" alt="coin" class="absolute top-[70%] lg:top-[60%] left-[2%] lg:left-[5%] w-14 h-14 md:w-28 md:h-28" />
     </div>
   </section>
 </template>
