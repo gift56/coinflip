@@ -36,7 +36,7 @@
             class="w-full py-3 px-2 border-b border-gray1 last:border-none grid grid-cols-2 lg:flex items-center justify-between"
           >
             <div class="w-full">
-              <h4>{{ graphInfo.coinName }}</h4>
+              <h4 class="text-lg font-bold text-white">{{ graphInfo.coinName }}</h4>
             </div>
             <div class="w-full"></div>
             <div class="w-full"></div>
