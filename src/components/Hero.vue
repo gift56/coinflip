@@ -40,6 +40,7 @@
       <img src="../assets/image/heroImage1.png" alt="coin" class="absolute top-[70%] lg:top-[-2%] left-[2%] lg:left-[5%] w-14 h-14 md:w-32 md:h-32" />
       <img src="../assets/image/heroImage2.png" alt="coin" class="absolute top-[60%] left-[5%] w-28 h-28 hidden lg:block" />
       <img src="../assets/image/heroImage3.png" alt="coin" class="absolute top-[95%] left-[20%] w-28 h-28 hidden lg:block" />
+      <img src="../assets/image/heroImage4.png" alt="coin" class="absolute top-[5%] right-[15%] w-16 h-16 hidden lg:block" />
     </div>
   </section>
 </template>
