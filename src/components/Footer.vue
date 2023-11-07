@@ -14,6 +14,7 @@
             transfer. Sign up to get the latest in CoinFlip news, discounts,
             and more.
           </p>
+          <p class="text-sm font-normal text-gray1">© 2021 GPD Holdings, LLC FinCEN MSB</p>
         </div>
         <div class="w-full"></div>
         <div class="w-full"></div>
