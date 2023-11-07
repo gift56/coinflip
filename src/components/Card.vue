@@ -26,10 +26,19 @@
             class="flex items-center justify-center gap-1 group text-gray2 text-base font-semibold"
           >
             {{ item.linkText }}
-            <img src="../assets/icon/arrowIcon.png" alt="arrow" class="group-hover:ml-3 transition-all duration-300" />
+            <img
+              src="../assets/icon/arrowIcon.png"
+              alt="arrow"
+              class="group-hover:ml-3 transition-all duration-300"
+            />
           </RouterLink>
         </div>
       </div>
+      <img
+        src="../assets/image/heroImage8.png"
+        alt="star"
+        class="absolute bottom-[10%] delay-300 left-[-5%] w-8 h-8 block animate-pulse"
+      />
     </div>
   </section>
 </template>
