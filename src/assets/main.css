@@ -23,6 +23,9 @@ img {
   background-color: #d0a22c;
   color: white;
 }
+.hero {
+  background-image: url(./image/heroCircle.svg) !important;
+}
 
 .mainMan .img {
   transform-style: preserve-3d;

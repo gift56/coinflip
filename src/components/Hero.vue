@@ -1,6 +1,6 @@
 <template>
   <section
-    className="w-full relative lg:h-screen flex flex-col items-center justify-center bg-heroBg animate-bganimate bg-no-repeat bg-cover bg-[center_top_-2rem]  overflow-hidden lg:overflow-visible"
+    className="w-full hero relative lg:h-screen flex flex-col items-center justify-center bg-heroBg animate-bganimate bg-no-repeat bg-cover bg-[center_top_-2rem]  overflow-hidden lg:overflow-visible"
   >
     <div
       class="flex flex-col w-full items-center justify-center gap-8 relative z-10 py-6"
