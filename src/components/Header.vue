@@ -32,43 +32,43 @@
         <span @click="toggleMenu" v-if="!isMenuOpen" class="lg:hidden text-2xl">
           <i class="fa-solid fa-bars"></i>
         </span>
-        <div
-          class="lg:hidden flex flex-col h-screen bg-black/20 gap-7 absolute top-0 w-full z-40 transition-all duration-300"
-          :class="{ 'left-0': isMenuOpen, '-left-full': !isMenuOpen }"
-        >
-          <nav
-            ref="menuRef"
-            className="flex flex-col h-full bg-cardDark gap-5 p-4 w-[250px]"
-          >
-            <div className="w-full flex items-center justify-end">
-              <span @click="toggleMenu" className="text-dark text-2xl">
-                <i class="fa-solid fa-xmark"></i>
-              </span>
-            </div>
-            <RouterLink
-              v-for="link in navLinks"
-              :key="link.text"
-              :to="link.href"
-              @click="toggleMenu"
-              class="text-base font-medium text-dark"
-              >{{ link.text }}</RouterLink
-            >
-
-            <RouterLink
-              to="/"
-              class="text-lg font-semibold border w-fit px-4 py-2 rounded-xl"
-              >Sign in</RouterLink
-            >
-            <RouterLink to="/">
-              <button
-                type="button"
-                class="w-fit px-4 py-2 rounded-xl bg-btnLinear text-white outline-none text-lg font-semibold"
-              >
-                Sign up
-              </button>
-            </RouterLink>
-          </nav>
+      </nav>
+    </div>
+    <div
+      class="lg:hidden flex flex-col h-screen bg-black/20 gap-7 absolute top-0 w-full z-40 transition-all duration-300"
+      :class="{ 'left-0': isMenuOpen, '-left-full': !isMenuOpen }"
+    >
+      <nav
+        ref="menuRef"
+        className="flex flex-col h-full bg-cardDark gap-5 p-4 w-[250px]"
+      >
+        <div className="w-full flex items-center justify-end">
+          <span @click="toggleMenu" className="text-dark text-2xl">
+            <i class="fa-solid fa-xmark"></i>
+          </span>
         </div>
+        <RouterLink
+          v-for="link in navLinks"
+          :key="link.text"
+          :to="link.href"
+          @click="toggleMenu"
+          class="text-base font-medium text-dark"
+          >{{ link.text }}</RouterLink
+        >
+
+        <RouterLink
+          to="/"
+          class="text-lg font-semibold border w-fit px-4 py-2 rounded-xl"
+          >Sign in</RouterLink
+        >
+        <RouterLink to="/">
+          <button
+            type="button"
+            class="w-fit px-4 py-2 rounded-xl bg-btnLinear text-white outline-none text-lg font-semibold"
+          >
+            Sign up
+          </button>
+        </RouterLink>
       </nav>
     </div>
   </header>
